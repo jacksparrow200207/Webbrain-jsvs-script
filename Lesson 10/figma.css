@@ -1,0 +1,417 @@
+/* navbar start */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+}
+
+.navlist {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-left: 173.42px;
+  margin-right: 158px;
+}
+
+.navlist a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(105, 104, 113, 1);
+  padding-bottom: 10px;
+}
+.navlist a:hover {
+  color: black;
+  border-bottom: 2px solid;
+  border-color: rgba(84, 84, 212, 1);
+}
+
+img {
+  width: 199.48px;
+  height: 39.22px;
+  margin-left: 184.1px;
+}
+
+.btn4 {
+  width: 211px;
+  height: 60px;
+  background-color: #ff7143;
+  border-radius: 10px;
+  line-height: 22.13px;
+  font-weight: 700px;
+  size: 17px;
+  border: none;
+  margin-right: 186px;
+  color: white;
+}
+
+.item2 {
+  list-style-type: none;
+}
+/* navbar end */
+
+/* page1 start */
+
+.page-first {
+  display: flex;
+  gap: 74px;
+  margin-bottom: 100px;
+}
+
+.text {
+  margin-left: 184px;
+}
+
+.p1 {
+  width: 462px;
+  height: 231px;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 77px;
+}
+
+.pr1 {
+  width: 459px;
+  height: 90px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(105, 104, 113, 1);
+}
+
+.btn5 {
+  width: 211px;
+  height: 60px;
+  background-color: rgba(84, 84, 212, 1);
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+.icon1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(231, 231, 231, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+  margin-left: 40px;
+}
+
+.attribute {
+  text-decoration: none;
+}
+
+.img1 {
+  width: 580px;
+  height: 644px;
+  margin-left: 0px;
+}
+
+.cont {
+  display: flex;
+}
+
+.logos {
+  display: flex;
+  gap: 5px;
+}
+.logos1 {
+  margin-left: -130px;
+  margin-bottom: 160px;
+}
+/* page1 end */
+
+/* page2 start*/
+
+.page2 {
+  display: flex;
+  align-items: center;
+  gap: 165.5px;
+  margin-bottom: 83px;
+}
+
+.p2-img img {
+  width: 348.5px;
+  height: 473px;
+  left: 184px;
+  top: 1132px;
+  flex: 1;
+}
+
+
+
+.p2-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  flex: 1;
+  width: 460px;
+  height: 90px;
+}
+.p2-text a {
+  text-decoration: none;
+}
+
+/* page2 end */
+
+/* page 3 start */
+
+.page3 {
+  display: flex;
+  align-items: center;
+  gap: 165.5px;
+  margin-bottom: 83px;
+  margin-left: 184px;
+}
+
+.p3-img img {
+  width: 346.37px;
+  height: 474px;
+  left: 802px;
+  top: 1688px;
+ margin-left: 50px;
+}
+
+
+
+.p3-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  width: 460px;
+  height: 60px;
+  text-align: left;
+  
+}
+
+.p3-text a {
+  text-decoration: none;
+}
+/* page 3 end */
+
+/* page4 start */
+.box1 img {
+  width: 151px;
+  height: 97px;
+  left: 264px;
+  top: 2300px;
+}
+
+.box2 img {
+  width: 151px;
+  height: 97px;
+  left: 264px;
+  top: 2300px;
+}
+
+.box3 img {
+  width: 151px;
+  height: 97px;
+  left: 264px;
+  top: 2300px;
+}
+
+h3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.boxes p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #696871;
+  width: 307px;
+}
+
+.boxes img {
+  
+  display: flex;
+  margin-left: 80px;
+  
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 74px;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+/* page4 end */
+
+/* page5 start */
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 250px;
+  margin-bottom: 82px;
+}
+
+.button {
+  display: flex;
+  gap: -50px;
+
+  
+}
+
+.but {
+  background: #5454d4;
+  border-radius: 10px 0px 0px 10px;
+  color: white;
+  text-align: center;
+  width: 160px;
+  height: 55px;
+  padding: 8px 16px 8px 16px;
+  border: none;
+}
+
+.but1 {
+  width: 160px;
+  height: 55px;
+  background: #f7f7fb;
+  border: none;
+  text-align: center;
+  color: black;
+  padding: 8px 16px 8px 16px;
+}
+/* page5 end */
+
+/* footer start*/
+
+/* 1 box start */
+.container {
+  text-align: center;
+  padding: 34px 24px 46px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.container1 {
+  width: 330px;
+  height: 441px;
+  background: #f8f8f8;
+  border-radius: 10px;
+}
+
+.starter {
+  padding-top: 34px;
+  margin-left: 137.5px;
+  width: 54px;
+  height: 28px;
+}
+
+.Free {
+  width: 125px;
+  height: 56px;
+  margin-top: 50px;
+  margin-bottom: 28px;
+}
+
+.item {
+  text-align: center;
+  margin-left: -40px;
+  margin-bottom: 36px;
+}
+
+.item1 {
+  list-style-type: none;
+  line-height: 50px;
+}
+
+.btn {
+  width: 285px;
+  height: 60px;
+  background: #ffffff;
+  border: 1px solid #eae9f2;
+  border-radius: 10px;
+  color: rgba(84, 84, 212, 1);
+}
+
+.btn1 {
+  width: 285px;
+  height: 60px;
+  background: rgba(159, 57, 25, 1);
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 5px;
+  color: white;
+}
+
+.btn2 {
+  width: 285px;
+  height: 60px;
+  background: #ffffff;
+  border: 1px solid #eae9f2;
+  border-radius: 10px;
+  color: rgba(84, 84, 212, 1);
+}
+
+/* 1 box end */
+.container2 {
+  width: 376px;
+  height: 473px;
+  background: #ff7143;
+  border-radius: 10px;
+}
+
+.premium {
+  padding-top: 50px;
+  padding-left: 149.5px;
+  width: 71px;
+  height: 28px;
+}
+
+/* 2 box end */
+
+/* 3 box start */
+
+.container4 {
+  width: 330px;
+  height: 441px;
+  background: #f8f8f8;
+  border-radius: 10px;
+}
+
+.enterprise {
+  padding-top: 34px;
+  margin-left: 137.5px;
+  width: 54px;
+  height: 28px;
+}
+/* 3 box end */
+
+/* Footer end */
+
+@media (max-width:320px)
+{
+  .page-first {
+    flex-direction: column;
+    
+  }
+}

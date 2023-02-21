@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(33, 32, 32);
+}
+
+.search {
+  outline: none;
+  background-color: black;
+  color: white;
+  width: 350px;
+  margin-left: 400px;
+  border: 1px solid black;
+  padding: 4px 1px 4px 1px;
+}
+
+.buttons  {
+  margin: 2px 300px 2px 300px; 
+}
+
+.button {
+  background-color: gray;
+  color: white;
+  border-radius: 40px;
+  border: 1px solid;
+}
+
+img {
+  width: 250px;
+  margin-bottom: 2px;
+}
+
+p {
+  margin-top: 0px;
+  margin-left: 5px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+pre {
+  margin-top: 0px;
+  margin-left: 5px;
+}
+
+div {
+  display: inline-block;
+  margin-left: 5px;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .container {
+    
+    height: 200vh;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,200px);
+    justify-content: center;
+
+  }
+
+  .item {
+    background-color: orange;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: xx-large;
+  }
+
+  .item1 {
+    text-align: center;
+    grid-column: 1/5;
+    background-color: grey;
+  }
+
+  .item2 {
+    text-align: center;
+    grid-row: 2/span 2;
+    width: 100px;
+    height: 500px;
+    background-color: orange;
+  }
+
+  .item3 {
+    text-align: center;
+    margin-left: -280px;
+    margin-right: 300px;
+    height: 200px;
+    background-color: rgb(79, 79, 79);
+    color: white;
+  }
+
+  .item4 {
+    text-align: center;
+    margin-left: -300px;
+    height: 200px;
+    background-color: red;
+  }
+
+  .item5 {
+    text-align: center;
+    height: 200px;
+    background-color: rgb(188, 184, 184);
+  }
+
+  .item6 {
+    text-align: center;
+    grid-column: 2/span 3;
+    margin-left: -280px;
+    margin-top: 30px;
+    height: 100px;
+    background-color: aqua;
+  }
+
+  .item7 {
+    text-align: center;
+    margin-top: -40px;
+    margin-left: -280px;
+    grid-column: 2/span 3;
+    height: 120px;
+    background-color: orangered;
+  }
+
+  .item8 {
+    text-align: center;
+    margin-top: -428px;
+    height: 120px;
+    grid-column: 1/span 4;
+    background-color: gainsboro;
+  }
+
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item item1">Header</div>
+    <div class="item item2">Nav</div>
+    <div class="item item3">Upper Content Left</div>
+    <div class="item item4">Upper Content Center</div>
+    <div class="item item5">Upper Content Right</div>
+    <div class="item item6">Middle Content</div>
+    <div class="item item7">Lower Content</div>
+    <div class="item item8">Sticky Footer</div>
+
+
+ </div>
+</body>
+</html>
